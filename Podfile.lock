@@ -1,0 +1,10 @@
+PODS:
+  - CJWKWebViewController (1.0.1)
+
+DEPENDENCIES:
+  - CJWKWebViewController (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  CJWKWebViewController: e852c89ca95dc499db516320f9de83a52354381f
+
+COCOAPODS: 0.39.0

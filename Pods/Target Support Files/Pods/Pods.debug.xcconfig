@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CJWKWebViewController"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CJWKWebViewController"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CJWKWebViewController" -framework "Foundation" -framework "UIKit" -framework "WebKit"
+PODS_ROOT = ${SRCROOT}/Pods
